@@ -1,0 +1,44 @@
+html {
+
+    width: 700px;
+
+    margin: 0 auto;
+
+    font-size: 14pt;
+    font-family: sans-serif;
+
+    background-color: rgb(9, 1, 43);
+}
+
+.midle {
+    
+    width: 1em;
+
+    .profile {
+        width: 1rem;
+
+        align-items: center;
+        margin: 1rem 10em;
+
+        img {
+            width: 14rem;
+            border-radius: 50%;
+        }
+    }
+
+    .about {
+        color: white;
+        margin: 1rem;
+
+        h3{
+            width: 20rem;
+        }
+
+        p {
+            font-size: 0.8rem;
+            color: #ffff;
+
+            width: 31rem;
+        }
+    }
+}

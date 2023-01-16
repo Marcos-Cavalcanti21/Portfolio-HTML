@@ -1,24 +1,32 @@
 html {
+  width: 700px;
+  margin: 0 auto;
   font-size: 14pt;
+  font-family: sans-serif;
   background-color: rgb(9, 1, 43);
 }
 
 .midle {
-  margin: 0 auto;
-  width: 700px;
+  width: 1em;
 }
 .midle .profile {
   width: 1rem;
+  align-items: center;
+  margin: 1rem 10em;
 }
 .midle .profile img {
-  width: 1.2rem;
+  width: 14rem;
   border-radius: 50%;
 }
 .midle .about {
   color: white;
+  margin: 1rem;
+}
+.midle .about h3 {
+  width: 20rem;
 }
 .midle .about p {
-  font-size: 1.6rem;
+  font-size: 0.8rem;
   color: white;
-  width: 0.8rem;
+  width: 31rem;
 }
