@@ -1,11 +1,28 @@
-#profile {
-    
-    img {
-    width: 50em;
-    border-radius: 50%;
-    }
+html {
+    font-size: 14pt;
+    background-color: rgb(9, 1, 43);
 }
 
-body {
-    background-color: rgb(9, 1, 43);
+.midle {
+    margin: 0 auto;
+    width: 700px;
+
+    .profile {
+        width: 1rem;
+
+        img {
+            width: 1.2rem;
+            border-radius: 50%;
+        }
+    }
+
+    .about {
+        color: white;
+
+        p {
+            font-size: 1.6rem;
+            color: #ffff;
+            width: 0.8rem;
+        }
+    }
 }
