@@ -12,7 +12,7 @@
 // }
 
 html {
-    width: 700px;
+    width: 90%;
 
     margin: 0 auto;
 
@@ -22,17 +22,15 @@ html {
     background-color: #0a0b0b;
 }
 
-.midle {
-    width: 90%;
-    height: 44.3vw;
+section {
+    /* width: 90%; */
+    height: 100%;
     background-color: #0e0f10;
     border: 1px solid #26292a;
 
     .profile {
-        width: 1rem;
-
-        align-items: center;
-        margin: 1rem 10em;
+        width: 19vmax;
+        margin: 5vmax 6vmax;
 
         img {
             width: 14rem;
