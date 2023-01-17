@@ -1,5 +1,17 @@
-html {
+// * {
+//     margin: 0;
+//     padding: 0;
+// }
 
+// body {
+//     height: 100vh;
+//     color: white;
+// }
+
+// :root {
+// }
+
+html {
     width: 700px;
 
     margin: 0 auto;
@@ -11,7 +23,6 @@ html {
 }
 
 .midle {
-    
     width: 1em;
 
     .profile {
@@ -30,7 +41,7 @@ html {
         color: white;
         margin: 1rem;
 
-        h3{
+        h3 {
             width: 20rem;
         }
 
