@@ -13,8 +13,6 @@ html {
 #container {
   margin: auto;
   width: 90%;
-  background-color: #0e0f10;
-  border: 1px solid #26292a;
 }
 
 section {
@@ -48,10 +46,10 @@ section .about p {
   #page-landing {
     display: flex;
   }
-  /*    #container {
-         margin: auto;
-         width: min(90%, 1120px);
-     } */
+  #container {
+    background-color: #0e0f10;
+    border: 1px solid #26292a;
+  }
   section {
     /* width: 90%; */
     height: 100%;

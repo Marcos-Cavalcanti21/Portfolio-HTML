@@ -29,9 +29,6 @@ html {
 #container {
     margin: auto;
     width: min(90%, 100%);
-
-    background-color: #0e0f10;
-        border: 1px solid #26292a;
 }
 
 section {
@@ -61,8 +58,8 @@ section {
 
         p {
             font-size: 0.8em;
-            color: #ffff; 
-            width: 100%;       
+            color: #ffff;
+            width: 100%;
         }
     }
 }
@@ -71,22 +68,22 @@ section {
     #page-landing {
         display: flex;
     }
-    
- /*    #container {
-        margin: auto;
-        width: min(90%, 1120px);
-    } */
-    
+
+    #container {
+        background-color: #0e0f10;
+        border: 1px solid #26292a;
+    }
+
     section {
         /* width: 90%; */
         height: 100%;
 
         margin: 0 8vw;
-    
+
         .profile {
             width: 19vw !important;
             margin: 5vh 0 !important;
-    
+
             img {
                 width: 100%;
                 border-radius: 50%;
@@ -97,17 +94,15 @@ section {
             font-size: 1.5vw !important;
             width: 100% !important;
 
-            text-align: initial ;
-    
+            text-align: initial;
+
             h3 {
                 font-size: 1.2em !important;
             }
-    
+
             p {
                 font-size: 0.8em !important;
             }
         }
-    
     }
-    
 }
