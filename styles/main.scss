@@ -31,30 +31,22 @@ html {
 }
 
 header {
-    ul {
-        font-size: 1.5em;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #0e0f10;
-        position: -webkit-sticky;
-        position: sticky;
-        top: 0;
-
-        li {
-            float: left;
-
-            a {
-                display: block;
-                color: white;
-                text-align: center;
-                padding: 14px 16px;
-                text-decoration: none;
-
-                &:hover {background-color: #0a0b0b;}                
-            }
+    button {
+        float: right;
+        border: none;
+        background-color: #15161600;
+        width: 9vmax;
+        padding: 3vmax;
+        &:hover{
+            border-radius: 35%;
+            background-color: #26292a;
         }
+        img {
+            width: 100%;
+        }
+    }
+    ul {
+        display: none;
     }
 }
 
@@ -99,6 +91,37 @@ section {
     #container {
         background-color: #0e0f10;
         border: 1px solid #26292a;
+    }
+
+    header {
+        ul {
+            display: block;
+            font-size: 1.5em;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #0e0f10;
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+
+            li {
+                float: left;
+
+                a {
+                    display: block;
+                    color: white;
+                    text-align: center;
+                    padding: 1.8vh 1vw;
+                    text-decoration: none;
+
+                    &:hover {
+                        background-color: #151616;
+                    }
+                }
+            }
+        }
     }
 
     section {
