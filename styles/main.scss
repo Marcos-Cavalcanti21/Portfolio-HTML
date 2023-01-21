@@ -13,7 +13,6 @@
 
 html {
     width: 90%;
-
     margin: 0 auto;
 
     font-size: 1vw;
@@ -31,6 +30,34 @@ html {
     width: min(90%, 100%);
 }
 
+header {
+    ul {
+        font-size: 1.5em;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #0e0f10;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+
+        li {
+            float: left;
+
+            a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+
+                &:hover {background-color: #0a0b0b;}                }
+            }
+        }
+    }
+}
+
 section {
     /* width: 90%; */
     height: 100%;
@@ -46,11 +73,11 @@ section {
     }
 
     .about {
+        width: 100%;
+
         color: white;
         font-size: 5vw;
         text-align: center;
-
-        width: 100%;
 
         h3 {
             font-size: 1.2em;
@@ -63,7 +90,7 @@ section {
         }
     }
 }
-
+/* desktop version */
 @media (min-width: 760px) {
     #page-landing {
         display: flex;
@@ -77,7 +104,6 @@ section {
     section {
         /* width: 90%; */
         height: 100%;
-
         margin: 0 8vw;
 
         .profile {

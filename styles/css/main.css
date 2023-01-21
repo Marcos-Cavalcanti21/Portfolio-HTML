@@ -15,6 +15,31 @@ html {
   width: 90%;
 }
 
+header ul {
+  font-size: 1.5em;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0e0f10;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+header ul li {
+  float: left;
+}
+header ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+header ul li a:hover {
+  background-color: #0a0b0b;
+}
+
 section {
   /* width: 90%; */
   height: 100%;
@@ -28,10 +53,10 @@ section .profile img {
   border-radius: 50%;
 }
 section .about {
+  width: 100%;
   color: white;
   font-size: 5vw;
   text-align: center;
-  width: 100%;
 }
 section .about h3 {
   font-size: 1.2em;
@@ -42,6 +67,7 @@ section .about p {
   width: 100%;
 }
 
+/* desktop version */
 @media (min-width: 760px) {
   #page-landing {
     display: flex;
