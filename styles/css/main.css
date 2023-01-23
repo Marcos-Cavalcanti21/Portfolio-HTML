@@ -16,8 +16,9 @@ html {
 }
 
 header button {
-  float: right;
   border: none;
+  position: fixed;
+  right: 0;
   background-color: rgba(21, 22, 22, 0);
   width: 9vmax;
   padding: 3vmax;
@@ -31,6 +32,25 @@ header button img {
 }
 header ul {
   display: none;
+  position: fixed;
+  right: 0;
+  width: 25vmax;
+  right: 10vmax;
+  font-size: 5em;
+  list-style-type: none;
+  overflow: hidden;
+}
+header ul li {
+  border: 1px solid #26292a;
+}
+header ul li:hover {
+  background-color: rgba(38, 41, 42, 0.5254901961);
+}
+header ul li a {
+  color: white;
+  text-align: center;
+  padding: 1.8vh 1vw;
+  text-decoration: none;
 }
 
 section {
@@ -68,6 +88,9 @@ section .about p {
   #container {
     background-color: #0e0f10;
     border: 1px solid #26292a;
+  }
+  header button {
+    display: none;
   }
   header ul {
     display: block;
