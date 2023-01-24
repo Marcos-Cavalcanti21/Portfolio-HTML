@@ -65,8 +65,7 @@
     font-size: 0.8em !important;
   }
   #projects {
-    /* margin: 8vmax ;
-     display: table; */
+    margin: 8vmax !important;
   }
   #projects td {
     margin: 0 !important;
@@ -74,6 +73,5 @@
     width: 6vmax !important;
     height: 9vmax !important;
     padding: 0 9vmax !important;
-    border: 1px solid white;
   }
 }

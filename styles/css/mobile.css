@@ -87,16 +87,16 @@ section {
 }
 
 #projects {
-  margin: 8vmax;
+  margin: 8vmax auto;
   display: table;
 }
 #projects td {
-  margin: 3vmax 4vmax;
+  margin: 3vmax auto;
   display: block;
-  width: 34vmax;
-  height: 28vmax;
+  width: 8vmax;
+  height: 16vmax;
   padding: 0 9vmax !important;
-  border: 1px solid white;
+  border: 1px solid #26292a;
 }
 
 /* #projects{
