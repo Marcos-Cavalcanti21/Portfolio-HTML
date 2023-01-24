@@ -14,8 +14,8 @@ function more() {
     }
 }
 
-function projects() {
-
+/* function projects() {
+ */
     var root = document.documentElement;
 root.className += ' js';
 
@@ -76,7 +76,7 @@ $(document).ready(function() {
                  },3000)
              }
          }, 500) */
+        
+    
 
-    }
-
-}
+/* } */

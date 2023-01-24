@@ -56,33 +56,52 @@ header ul li a {
 section {
   /* width: 90%; */
   height: 100%;
+  margin: 0 8vw;
 }
-section .profile {
+
+.info {
+  /* width: 90%; */
+  height: 100%;
+}
+.info .profile {
   width: 19vmax;
   margin: 3vmax auto;
 }
-section .profile img {
+.info .profile img {
   width: 100%;
   border-radius: 50%;
 }
-section .about {
+.info .about {
   width: 100%;
   color: white;
   font-size: 5vw;
   text-align: center;
 }
-section .about h3 {
+.info .about h3 {
   font-size: 1.2em;
 }
-section .about p {
+.info .about p {
   font-size: 0.8em;
   color: white;
   width: 100%;
 }
 
 #projects {
+  margin: 8vmax;
   display: table;
 }
 #projects td {
+  margin: 3vmax 4vmax;
   display: block;
+  width: 34vmax;
+  height: 28vmax;
+  padding: 0 9vmax !important;
+  border: 1px solid white;
 }
+
+/* #projects{
+    display: table;
+    td{
+        display: block;
+    } 
+}*/

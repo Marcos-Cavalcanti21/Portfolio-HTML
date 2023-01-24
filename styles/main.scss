@@ -44,11 +44,11 @@
         }
     }
 
-    section {
-        /* width: 90%; */
+  /*   section {
+        /* width: 90%;
         height: 100%;
         margin: 0 8vw;        
-    }
+    } */
 
     .info{
         height: 100%;
@@ -81,14 +81,15 @@
     }
 
     #projects{
-        margin: 8vmax;
-/*         display: none;
- */
+        /* margin: 8vmax ;
+         display: table; */
+
         td{
-/*             display: none;
- */
-            width: 6vmax;
-            height: 9vmax;
+            margin: 0 !important;
+             display: table-cell !important;
+
+            width: 6vmax !important;
+            height: 9vmax !important;
 
             padding: 0 9vmax !important;
 

@@ -14,18 +14,32 @@
   }
 }
 
-.animation-up-slow {
-  animation-name: up;
-  animation-duration: 1500ms;
-  animation-fill-mode: backwards;
+.js .anime {
+  opacity: 0;
+  transform: translate3D(0px, 50px, 0px);
 }
-@keyframes up {
-  from {
-    opacity: 0;
-    transform: translateY(120px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+
+.js .animation-up-slow {
+  opacity: 1;
+  transform: translate3D(0px, 0px, 0px);
+  transition: 0.5s all ease;
 }
+
+/* .animation-up-slow{
+
+    @keyframes up {
+        from {
+            opacity: 0;
+            transform: translateY(120px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    animation-name: up;
+    animation-duration: 1500ms;
+    animation-fill-mode: backwards;
+} */
