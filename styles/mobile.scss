@@ -1,0 +1,121 @@
+// * {
+//     margin: 0;
+//     padding: 0;
+// }
+
+// body {
+//     height: 100vh;
+//     color: white;
+// }
+
+// :root {
+// }
+
+html {
+    width: 90%;
+    margin: 0 auto;
+
+    font-size: 1vw;
+    font-family: sans-serif;
+
+    background-color: #0a0b0b;
+}
+
+#page-landing {
+    display: flex;
+}
+
+#container {
+    margin: auto;
+    width: min(90%, 100%);
+}
+
+header {
+    button {
+        border: none;
+        position: fixed;
+        right: 0;
+
+        background-color: #15161600;
+        width: 9vmax;
+        padding: 3vmax;
+
+        &:hover {
+            border-radius: 35%;
+            background-color: #26292a;
+        }
+        img {
+            width: 100%;
+        }
+    }
+    ul {
+        display: none;
+        position: fixed;
+        right: 0;
+
+        width: 25vmax;
+
+        right: 10vmax;
+
+            font-size: 5em;
+            list-style-type: none;
+            
+            
+            overflow: hidden;
+            
+            
+        li {
+            border: 1px solid #26292a;
+            
+            &:hover{
+                background-color: #26292a86;
+            }
+            a {
+                color: white;
+                text-align: center;
+                padding: 1.8vh 1vw;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+section {
+    /* width: 90%; */
+    height: 100%;
+
+    .profile {
+        width: 19vmax;
+        margin: 3vmax auto;
+
+        img {
+            width: 100%;
+            border-radius: 50%;
+        }
+    }
+
+    .about {
+        width: 100%;
+
+        color: white;
+        font-size: 5vw;
+        text-align: center;
+
+        h3 {
+            font-size: 1.2em;
+        }
+
+        p {
+            font-size: 0.8em;
+            color: #ffff;
+            width: 100%;
+        }
+    }
+}
+
+#projects{
+    display: table;
+    td{
+        display: block;
+    }
+}

@@ -16,3 +16,22 @@
     animation-duration: 500ms;
     animation-fill-mode: backwards;
 }
+
+.animation-up-slow{
+
+    @keyframes up {
+        from {
+            opacity: 0;
+            transform: translateY(120px);
+        }
+    
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    animation-name: up;
+    animation-duration: 1500ms;
+    animation-fill-mode: backwards;
+}
